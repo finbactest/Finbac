@@ -136,7 +136,7 @@ ul.rating li {
 
 .overlay:before {
   content: '';
-  background: rgba(125, 113, 211, 0.9);
+  background: #FE6680;
   position: absolute;
   top: 0;
   left: 0;
@@ -205,7 +205,7 @@ a:focus, a:hover {
 }
 
 .bg-blue {
-  background: #7d71d3;
+  background: #FE6680;
 }
 
 .bg-coming-soon {
@@ -361,7 +361,7 @@ a:focus, a:hover {
 .input-group .input-group-addon {
   padding-left: 35px;
   padding-right: 35px;
-  background: #7d71d3;
+  background: #FE6680;
   color: #fff;
   cursor: pointer;
 }
@@ -433,7 +433,7 @@ a:focus, a:hover {
 .btn-main {
   padding: 25px 45px;
   border-radius: 3px;
-  background: #7d71d3;
+  background: #FE6680;
   color: #fff;
   outline: none;
 }
@@ -449,7 +449,7 @@ a:focus, a:hover {
 
 .btn-main-rounded {
   letter-spacing: .075em;
-  background: #7d71d3;
+  background: #FE6680;
   color: #fff;
   text-transform: uppercase;
   padding: 15px 40px;
@@ -463,7 +463,7 @@ a:focus, a:hover {
 .btn-main-md {
   padding: 17px 38px;
   border-radius: 3px;
-  background: #7d71d3;
+  background: #FE6680;
   color: #fff;
   outline: none;
 }
@@ -480,7 +480,7 @@ a:focus, a:hover {
 .btn-main-sm {
   padding: 15px 35px;
   border-radius: 3px;
-  background: #7d71d3;
+  background: #FE6680;
   color: #fff;
   outline: none;
   font-size: 14px;
@@ -508,7 +508,7 @@ a:focus, a:hover {
 }
 
 .main-nav {
-  background: #7d71d3;
+  background: #fff;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -525,7 +525,7 @@ a:focus, a:hover {
   text-align: center;
   font-size: 13px;
   text-transform: uppercase;
-  color: #fff;
+  color: #555;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -546,7 +546,7 @@ a:focus, a:hover {
 
 .footer-main {
   padding: 50px 0;
-  background: #7d71d3;
+  background: #fff;
 }
 
 @media (max-width: 768px) {
@@ -560,17 +560,17 @@ a:focus, a:hover {
 }
 
 .footer-main .copyright p {
-  color: #fff;
+  color: #929FAD;
 }
 
 .footer-main .copyright a {
-  color: #fff;
+  color: #929FAD;
   font-weight: 600;
   transition: all .2s ease;
 }
 
 .footer-main .copyright a:hover {
-  color: #fff;
+  color: #929FAD;
 }
 
 @media (max-width: 768px) {
@@ -665,7 +665,7 @@ a:focus, a:hover {
 }
 
 .cta-subscribe .content .subscription-tag p {
-  color: #7d71d3;
+  color: #929FAD;
   letter-spacing: .1em;
 }
 
@@ -685,7 +685,7 @@ a:focus, a:hover {
   margin-left: 15px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 280px) {
   .call-to-action-app ul li {
     margin-left: 0;
     margin-bottom: 10px;
@@ -829,7 +829,7 @@ a:focus, a:hover {
 }
 
 .testimonial-slider .testimonial-item .content .pos-in-com span {
-  color: #7d71d3;
+  color: #FE6680;
 }
 
 .testimonial-slider .testimonial-item .content .speech {
@@ -895,7 +895,7 @@ a:focus, a:hover {
 }
 
 .banner .content-block h1, .banner .content-block h5 {
-  color: #fff;
+  color: #929FAD;
 }
 
 .banner .content-block h1 {
@@ -940,7 +940,7 @@ a:focus, a:hover {
 }
 
 .about .about-block .about-item.active {
-  background: #7d71d3;
+  background: #FE6680;
 }
 
 .about .about-block .about-item.active .icon i {
@@ -1116,7 +1116,7 @@ a:focus, a:hover {
 
 .counter .counter-item {
   text-align: center;
-  background: #7d71d3;
+  background: #FE6680;
   padding: 40px 0;
   border-radius: 8px;
 }
@@ -1202,7 +1202,7 @@ a:focus, a:hover {
 }
 
 .slider .block h1, .slider .block h3 {
-  color: #fff;
+  color: #929FAD;
 }
 
 .slider .block .download {
@@ -1342,7 +1342,7 @@ a:focus, a:hover {
   font-family: "Josefin Sans", sans-serif;
   margin-bottom: 10px;
   font-style: italic;
-  color: #242424;
+  color: #FE6680;
 }
 
 .feature .testimonial ul.meta li {
@@ -1436,7 +1436,7 @@ a:focus, a:hover {
 .video-promo .content-block a i.video {
   height: 125px;
   width: 125px;
-  background: #7d71d3;
+  background: #FE6680;
   display: inline-block;
   font-size: 40px;
   color: #fff;
@@ -1490,7 +1490,7 @@ a:focus, a:hover {
 
 .team-sm .image .social-links {
   position: absolute;
-  background: #7d71d3;
+  background: #FE6680;
   left: 0;
   right: 0;
   text-align: center;
@@ -1660,11 +1660,11 @@ a:focus, a:hover {
 }
 
 .post-sm .post-content .excerpts a:hover {
-  color: #7d71d3;
+  color: #FE6680;
 }
 
 .post-sm .post-content .excerpts a:hover span {
-  color: #7d71d3;
+  color: #FE6680;
 }
 
 .blog-single .single-post {
@@ -1701,7 +1701,7 @@ a:focus, a:hover {
   text-align: left;
   font-size: 30px;
   line-height: 40px;
-  border-left: 6px solid #666666;
+  border-left: 6px solid #FE6680;
 }
 
 .blog-single .single-post .post-body .post-image {
@@ -1712,7 +1712,7 @@ a:focus, a:hover {
 
 .blog-single .about-author h2 {
   padding-bottom: 15px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #FE6680;
   margin-bottom: 30px;
   font-size: 30px;
 }
@@ -1810,13 +1810,13 @@ a:focus, a:hover {
 }
 
 .pagination-nav ul.pagination li a:hover {
-  background-color: #7d71d3;
+  background-color: #FE6680;
   color: #fff;
   border-color: transparent;
 }
 
 .pagination-nav ul.pagination .active a {
-  background-color: #7d71d3;
+  background-color: #FE6680;
   color: #fff;
   border-color: transparent;
 }
@@ -1837,11 +1837,11 @@ a:focus, a:hover {
 }
 
 .about .about-slider .owl-dots .owl-dot:hover span {
-  background: #7d71d3;
+  background: #FE6680;
 }
 
 .about .about-slider .owl-dots .owl-dot.active span {
-  background: #7d71d3;
+  background: #FE6680;
 }
 
 .create-stories .block img {
@@ -1864,7 +1864,7 @@ a:focus, a:hover {
 }
 
 .quotes .quote-slider cite {
-  margin-left: 150px;
+  margin-left: 100px;
   font-style: normal;
 }
 
@@ -1943,7 +1943,7 @@ a:focus, a:hover {
   display: flex;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   .career-featured .block {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1958,7 +1958,7 @@ a:focus, a:hover {
       align-self: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   .career-featured .block .content {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -2271,7 +2271,7 @@ a:focus, a:hover {
   margin-bottom: 80px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 400px) {
   .user-login .block .content .logo {
     margin-bottom: 40px;
   }
