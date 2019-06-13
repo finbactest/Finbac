@@ -3,21 +3,22 @@
 body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-}
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+h1,h2,h3, h4, h5, h6{
+  font-family: "Cerebri Sans", sans-serif;
   color: #5e5e5e;
   font-weight: 400;
   line-height: 1;
 }
 
+
 h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h3 {
@@ -58,11 +59,16 @@ cite {
   font-size: 16px;
 }
 
+.badges {
+  padding-left: 15px
+}
+
 .app-badge ul li.list-inline-item:not(:last-child) {
   margin-right: 25px;
 }
 
 @media (max-width: 768px) {
+
   .app-badge ul li.list-inline-item:not(:last-child) {
     margin-bottom: 25px;
     margin-right: 0;
@@ -899,15 +905,13 @@ a:focus, a:hover {
 }
 
 .banner .content-block h1 {
-  line-height: 90px;
+  line-height: 50px;
   font-weight: 500;
-  text-transform: uppercase;
   letter-spacing: .06em;
   margin-bottom: 30px;
 }
 
 .banner .content-block h5 {
-  text-transform: uppercase;
   margin-bottom: 75px;
 }
 
@@ -957,7 +961,7 @@ a:focus, a:hover {
 
 .about .about-block .about-item .icon i {
   font-size: 48px;
-  color: #7d71d3;
+  color: #FE6680;
 }
 
 .about .about-block .about-item .content {
@@ -980,7 +984,7 @@ a:focus, a:hover {
 
 .feature .feature-item .icon i {
   font-size: 48px;
-  color: #7d71d3;
+  color: #FE6680;;
 }
 
 .feature .feature-item .content h5 {
@@ -1929,7 +1933,7 @@ a:focus, a:hover {
 .error-page .center .block h1 {
   font-size: 200px;
   font-weight: 400;
-  line-height: 266px;
+  line-height: 15px;
   font-family: "Josefin Sans", sans-serif;
 }
 
