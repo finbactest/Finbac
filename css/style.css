@@ -37,7 +37,14 @@ h6 {
   font-size: 16px;
 }
 
-p, a, li, blockquote, label, span {
+p {
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+  color: #999999;
+  margin-bottom: 0;
+}
+a, li, blockquote, label, span {
   font-size: 14px;
   letter-spacing: 0;
   line-height: 22px;
@@ -45,9 +52,7 @@ p, a, li, blockquote, label, span {
   margin-bottom: 0;
 }
 
-p {
-  line-height: 30px;
-}
+
 
 cite {
   font-size: 14px;
@@ -60,7 +65,8 @@ cite {
 }
 
 .badges {
-  padding-left: 15px
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 .app-badge ul li.list-inline-item:not(:last-child) {
@@ -602,7 +608,7 @@ a:focus, a:hover {
 }
 
 .footer-classic {
-  background: #fafafa;
+  background: #929fad;
   text-align: center;
   padding: 110px 0;
 }
@@ -835,7 +841,7 @@ a:focus, a:hover {
 }
 
 .testimonial-slider .testimonial-item .content .pos-in-com span {
-  color: #FE6680;
+  color: #929FAD;
 }
 
 .testimonial-slider .testimonial-item .content .speech {
@@ -843,7 +849,7 @@ a:focus, a:hover {
 }
 
 .testimonial-slider .testimonial-item .content .speech p {
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .testimonial-slider .testimonial-item .image {
@@ -873,7 +879,7 @@ a:focus, a:hover {
 }
 
 .testimonial-slider .slick-prev:hover:before, .testimonial-slider .slick-next:hover:before {
-  color: #7d71d3;
+  color: #FE6680;
 }
 
 .testimonial-slider .slick-prev:before, .testimonial-slider .slick-next:before {
@@ -913,6 +919,7 @@ a:focus, a:hover {
 
 .banner .content-block h5 {
   margin-bottom: 75px;
+  line-height: 25px;
 }
 
 @media (max-width: 480px) {
@@ -936,7 +943,7 @@ a:focus, a:hover {
 }
 
 .about .about-block .about-item {
-  background: #fff;
+  background: #FE6680;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -961,7 +968,7 @@ a:focus, a:hover {
 
 .about .about-block .about-item .icon i {
   font-size: 48px;
-  color: #FE6680;
+  color: #fff;
 }
 
 .about .about-block .about-item .content {
@@ -972,6 +979,7 @@ a:focus, a:hover {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 15px;
+  color: #fff;
 }
 
 .about .about-block .about-item:not(:last-child) {
@@ -1107,10 +1115,11 @@ a:focus, a:hover {
   font-weight: 300;
   font-family: "Josefin Sans", sans-serif;
   margin-bottom: 30px;
+  line-height: 50px;
 }
 
 .cta-download .content-block p {
-  line-height: 30px;
+  line-height: 25px;
   margin-bottom: 40px;
 }
 
